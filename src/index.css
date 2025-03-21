@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light mode */
+html {
+  @apply bg-gray-100 text-gray-900 transition-colors duration-300;
+}
+
+/* Dark mode */
+.dark {
+  @apply bg-gray-900 text-white;
+}
