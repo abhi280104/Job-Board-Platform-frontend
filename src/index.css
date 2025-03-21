@@ -11,3 +11,15 @@ html {
 .dark {
   @apply bg-gray-900 text-white;
 }
+
+select option {
+  color: black; /* Ensures text visibility in all themes */
+  background: white; /* Default background */
+}
+
+@media (prefers-color-scheme: dark) {
+  select option {
+    color: white; /* Text color in dark mode */
+    background: #1f2937; /* Dark background */
+  }
+}
