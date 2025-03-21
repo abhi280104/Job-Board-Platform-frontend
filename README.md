@@ -1,12 +1,43 @@
-# React + Vite
+# Job Board Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Live Demo:** [Job Board Platform](https://job-board-platform-frontend-ecru.vercel.app/)  
 
-Currently, two official plugins are available:
+## 📌 Overview  
+This is a **Job Board Platform** where users can browse job listings and apply for jobs. Since this project focuses only on the **frontend**, mock data is used for job listings and user authentication.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎨 Tech Stack  
+- **Frontend:** React.js, Tailwind CSS, Framer Motion   
+- **Deployment:** Vercel  
 
-## Expanding the ESLint configuration
+## 🔥 Features  
+✅ Homepage displaying job listings   
+✅ Search and filter functionality   
+✅ Authentication (using mock data)  
+✅ Pagination for job listings  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🗂️ Data Source  
+Since no backend is implemented, **dummy data** is used:  
+- `jobsDummyData.js` (Located in `/data` folder) - Contains job listings  
+- `usersDummyData.js` (Located in `/data` folder) - Contains test users  
+
+📌 **Note:**  
+- If a job is added from the **Admin Dashboard**, it will **not** be reflected on the user side because the data is static. Since this project is frontend-only, job listings do not persist and remain unchanged.
+
+## 🔑 Test Credentials  
+To test the application, use the following credentials:  
+
+### 👤 **User Account**  
+📧 Email: `user@example.com`  
+🔑 Password: `user123`  
+
+### 🔧 **Admin Account**  
+📧 Email: `admin@example.com`  
+🔑 Password: `admin123`  
+
+## 🚀 Getting Started  
+
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/yourusername/job-board-platform.git
+cd job-board-platform
+
